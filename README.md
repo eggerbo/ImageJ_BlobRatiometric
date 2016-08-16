@@ -1,7 +1,7 @@
 Blob ratiometrics is a [ImageJ][ij-web] plugin to perform ratiometric analysis between two channels. It uses a mask to define regions of interest for analysis. The ratiometric quantification will be computed for each roi on a 2D-image or on an image stack.  
 
 # Installation
-The plugin needs to be build form source. Therefore this repository needs to be cloned firstly and secondly [Maven][mvn] can be used to build the plugin. In the command line this boils down to the following simple lines:
+The plugin needs to be build from source. Therefore this repository needs to be cloned and [Maven][mvn] can be used to build the plugin. In the command line use the following lines:
 
 ```
 git clone https://github.com/eggerbo/ImageJ_BlobRatiometric.git
