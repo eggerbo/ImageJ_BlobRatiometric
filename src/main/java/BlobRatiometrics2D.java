@@ -194,9 +194,10 @@ public class BlobRatiometrics2D implements Command {
         // Create a image plus from the stack and display
         ImagePlus impRat = new ImagePlus("Ratio image", newStack);
         try {
-            IJ.run(impRat, "Rainbow RGB", ""); // This colormap is not in the base package ...
-        } catch (RuntimeException e) {
+//            IJ.run(impRat, "Rainbow RGB", ""); // This colormap is not in the base package ...
             IJ.run(impRat, "Fire", ""); // ... but  this one should be
+        } catch (RuntimeException e) {
+            IJ.log("Unable to apply the LUT 'Fire'. You will have to do this manually.");
         }
 
         IJ.run(impRat, "Calibration Bar...", "location=[Upper Right] fill=None label=White number=5 decimal=1 font=12 zoom=1.3 bold overlay");
