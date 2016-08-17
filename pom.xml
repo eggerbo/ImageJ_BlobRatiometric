@@ -18,7 +18,7 @@
 
 	<groupId>unifr-egger-lab</groupId>
 	<artifactId>blob-ratiometrics-2d</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Blob Ratiometrics Plugin for ImageJ</name>
 	<description />
