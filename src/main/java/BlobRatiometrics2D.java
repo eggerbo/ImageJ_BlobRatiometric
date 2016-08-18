@@ -34,8 +34,8 @@ public class BlobRatiometrics2D implements Command {
     private int bgWindowSize = 40;
     private int minObjectSize = 10;
     private int maxObjectSize = Integer.MAX_VALUE;
-    private boolean subtractBgCh1 = true;
-    private boolean subtractBgCh2 = true;
+    private boolean subtractBgCh1 = false;
+    private boolean subtractBgCh2 = false;
 
     /** Image data */
     private ImagePlus impCh1;
