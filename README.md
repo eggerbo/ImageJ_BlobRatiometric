@@ -17,7 +17,7 @@ mvn package
 ```
 
 # Usage
-Once the plugin is installed and ImageJ has been restarted, the plugin is available through the ImageJ menu: Plugins > Analyze > Blob Ratiometrics (2D). The plugin needs three open images, two florescent images and the image mask. All the images have to have the exact same dimension (2D or 3D).
+Once the plugin is installed and ImageJ has been restarted, the plugin is available through the ImageJ menu: Plugins > Analyze > Blob Ratiometrics (2D). The plugin needs three open images, two fluorescent images and the image mask. All the images have to have the exact same dimension (2D or 3D).
 
 
 [ij-web]: http://imagej.net/
